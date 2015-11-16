@@ -8,6 +8,6 @@ If you want to contribute to this list (please do), send me a pull request or co
 ## Table of Contents
 
 * [Factorization Machines with libFM](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.5724&rep=rep1&type=pdf)
-* [Factorization Machines](http://dl.acm.org/citation.cfm?id=1934620)
+* [Factorization Machines](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2012c.pdf)
 * [Efficient Classification of Long Time Series](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2012c.pdf)
 * [Python Library](https://github.com/coreylynch/pyFM)

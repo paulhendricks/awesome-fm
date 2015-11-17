@@ -12,7 +12,7 @@ age = [a for a in np.random.randint(low=18, high=100, size=n)]
 
 train = pd.DataFrame({'user': user, 'item': item, 'age': age})
 
-X_train = csr_matrix(pd.get_dummies(train, prefix=['user', 'item']).values)
+X_train = csr_matrix(pd.get_dummies(train, prefix=['item', 'user']).values)
 y_train = np.repeat(1.0, X_train.shape[0])
 
 fm = pylibfm.FM()
@@ -25,6 +25,6 @@ age = [a for a in np.random.randint(low=18, high=100, size=n)]
 
 test = pd.DataFrame({'user': user, 'item': item, 'age': age})
 
-X_test = csr_matrix(pd.get_dummies(test, prefix=['user', 'item']).values)
+X_test = csr_matrix(pd.get_dummies(test, prefix=['item', 'user']).values)
 
 fm.predict(X_test)
